@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Copertine con Link</title>
+  <!-- Includi il font Roboto da Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css">
+  <style>
+    /* Applica il font Roboto a tutto il corpo del documento */
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    .cover-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .cover-item {
+      flex: 1 1 200px; /* Base width of 200px, but grows if there's more space */
+      margin: 15px;
+      max-width: 300px; /* Maximum width for each cover */
+      text-align: center;
+      text-decoration: none; /* Remove underline from links */
+      color: inherit; /* Inherit text color */
+    }
+    .cover-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+    .cover-title {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .cover-description {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+    <header class="it-header-wrapper">
+    <div class="it-header-slim-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="it-header-slim-wrapper-content">
+              <a class="d-none d-lg-block navbar-brand" href="#cpc">GJD</a>
+              <div class="nav-mobile">
+                <nav aria-label="Navigazione secondaria">
+                  <a class="it-opener d-lg-none" data-bs-toggle="collapse" href="#menuC1" role="button" aria-expanded="false" aria-controls="menuC1">
+                    <span>GJD central department</span>
+                    <svg class="icon" aria-hidden="true"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-expand"></use></svg>
+                  </a>
+                  <div class="link-list-wrapper collapse" id="menuC1">
+                    <ul class="link-list">
+                      <li><a class="dropdown-item list-item" href="https://www.onlygabbyme.it/">onlygabbyme</a></li>
+                      <li><a class="list-item active" href="#" aria-current="page">GJD hq</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="it-header-slim-right-zone">
+                <div class="nav-item dropdown">
+                  <div class="dropdown-menu">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="link-list-wrapper">
+                          <!-- Contenuto menu a discesa -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="it-access-top-wrapper">
+                  <a class="btn btn-primary btn-sm" href="https://gjdhq.github.io">Admin</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="it-nav-wrapper">
+      <div class="it-header-center-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="it-header-center-content-wrapper">
+                <div class="it-brand-wrapper">
+                  <a href="https://gjdhq.github.io">
+                    <img class="desktop-logo" src="https://gabrielsystem.altervista.org/wp-content/uploads/2024/06/icona.png" alt="Logo">
+                    <div class="it-brand-text">
+                      <div class="it-brand-title">GJD HQ</div>
+                      <div class="it-brand-tagline d-none d-md-block">An official GJD HQ site</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="it-right-zone">
+                  <div class="it-socials d-none d-md-flex">
+                    <ul>
+                      <li>
+                        <a href="#" aria-label="Facebook" target="_blank">
+                          <svg class="icon"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use></svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/gjdhq/" aria-label="Github" target="_blank">
+                          <svg class="icon"><use href="https://cdn.icon-icons.com/icons2/2428/PNG/512/github_black_logo_icon_147128.png"></use></svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" aria-label="Twitter" target="_blank">
+                          <svg class="icon"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use></svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="it-header-navbar-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <!--start nav-->
+              <nav class="navbar navbar-expand-lg has-megamenu" aria-label="Navigazione principale">
+                <button class="custom-navbar-toggler" type="button" aria-controls="navC1" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-toggle="navbarcollapsible" data-bs-target="#navC1">
+                  <svg class="icon">
+                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
+                  </svg>
+                </button>
+                <div class="navbar-collapsable" id="navC1" style="display: none;">
+                  <div class="overlay" style="display: none;"></div>
+                  <div class="close-div">
+                    <button class="btn close-menu" type="button">
+                      <svg class="icon">
+                        <use href="https://gabrielsystem.altervista.org/wp-content/uploads/2024/06/icona.png"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="menu-wrapper">
+                    <ul class="navbar-nav">
+                      <!-- Item menu -->
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <script type="text/javascript" src="https://www.protezionecivile.fvg.it/widgets/pcrfvgit_alert.js"></script><div class="pcrfvgit_alert_widget" data-istatcode="93022"></div>
+              <!--end nav-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+
+  
+  <div class="container">
+    <h1 class="text-center my-4">Le Nostre Copertine</h1>
+    <div class="cover-container">
+      <a href="https://esempio.com/copertina1" class="cover-item">
+        <img src="https://via.placeholder.com/300x400" alt="Copertina 1" class="cover-image">
+        <div class="cover-title">Copertina 1</div>
+        <div class="cover-description">Una breve descrizione della copertina 1.</div>
+      </a>
+      <a href="https://esempio.com/copertina2" class="cover-item">
+        <img src="https://via.placeholder.com/300x400" alt="Copertina 2" class="cover-image">
+        <div class="cover-title">Copertina 2</div>
+        <div class="cover-description">Una breve descrizione della copertina 2.</div>
+      </a>
+      <a href="https://esempio.com/copertina3" class="cover-item">
+        <img src="https://via.placeholder.com/300x400" alt="Copertina 3" class="cover-image">
+        <div class="cover-title">Copertina 3</div>
+        <div class="cover-description">Una breve descrizione della copertina 3.</div>
+      </a>
+      <a href="https://esempio.com/copertina4" class="cover-item">
+        <img src="https://via.placeholder.com/300x400" alt="Copertina 4" class="cover-image">
+        <div class="cover-title">Copertina 4</div>
+        <div class="cover-description">Una breve descrizione della copertina 4.</div>
+      </a>
+      <!-- Aggiungi altre copertine qui -->
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
